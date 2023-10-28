@@ -1,0 +1,10 @@
+12:02:12.452 [main] INFO  com.karach.arrayproject.main.Main - Hello World
+12:02:12.455 [main] ERROR com.karach.arrayproject.main.Main - Hello
+13:31:52.586 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение0
+13:31:52.590 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение0
+13:42:43.045 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение100
+13:42:43.050 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение648
+13:57:42.358 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение-2132493428
+13:57:42.363 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение2140462427
+13:58:17.521 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение8
+13:58:17.526 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение848

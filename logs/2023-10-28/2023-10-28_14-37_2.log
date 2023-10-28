@@ -1,0 +1,9 @@
+14:37:13.610 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение1
+14:37:13.622 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение850
+14:37:13.623 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:1
+14:37:19.108 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение2
+14:37:19.116 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение850
+14:37:19.117 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:1
+14:37:28.051 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение2
+14:37:28.059 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение850
+14:37:28.060 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:1

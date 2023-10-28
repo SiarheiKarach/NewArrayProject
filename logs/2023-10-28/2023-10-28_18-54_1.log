@@ -1,0 +1,8 @@
+18:53:58.284 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:0
+18:53:58.298 [main] INFO  com.karach.arrayproject.logging.Logger - Среднее значение элементов массива: -1.8
+18:53:58.299 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма элементов массива: -18
+18:53:58.300 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма положительных элементов массива: 1
+18:53:58.300 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма отрицательных элементов массива: 9
+18:54:39.397 [main] INFO  com.karach.arrayproject.logging.Logger - Отсортированный массив: [-5, -5, -4, -3, -2, -2, -2, -1, -1, -1]
+18:54:39.404 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение массива:-5
+18:54:39.405 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение массива:-1

@@ -1,0 +1,9 @@
+17:07:00.713 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:0
+17:07:00.723 [main] INFO  com.karach.arrayproject.logging.Logger - Среднее значение элементов массива: 1.0
+17:07:00.724 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма элементов массива: 1
+17:07:00.724 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма положительных элементов массива: 1
+17:07:00.725 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма отрицательных элементов массива: 0
+17:07:00.725 [main] INFO  com.karach.arrayproject.logging.Logger - [1]
+17:07:15.497 [main] ERROR com.karach.arrayproject.logging.Logger - Массив отсутствует или пустой
+17:07:15.502 [main] ERROR com.karach.arrayproject.logging.Logger - Ошибка: Массив отсутствует или пустой
+17:08:14.686 [main] ERROR com.karach.arrayproject.logging.Logger - Ошибка: Массив отсутствует или пустой

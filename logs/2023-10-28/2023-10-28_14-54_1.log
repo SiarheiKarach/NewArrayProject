@@ -1,0 +1,9 @@
+14:53:07.025 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение3
+14:53:07.033 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:0
+14:53:07.034 [main] INFO  com.karach.arrayproject.logging.Logger - [2, 3]
+14:53:07.035 [main] INFO  com.karach.arrayproject.logging.Logger - Среднее значение элементов массива: 2.5
+14:53:15.768 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение0
+14:53:15.771 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение3
+14:53:15.771 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:3
+14:53:15.776 [main] INFO  com.karach.arrayproject.logging.Logger - [2, 3, 2, 0, 2]
+14:53:15.777 [main] INFO  com.karach.arrayproject.logging.Logger - Среднее значение элементов массива: 1.8
