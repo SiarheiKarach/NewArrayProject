@@ -1,0 +1,11 @@
+21:27:40.652 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+21:27:40.660 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+21:27:40.660 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+21:27:40.661 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+21:27:40.662 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
+21:27:40.662 [main] INFO  com.karach.arrayproject.main.Main - Sum of positive elements in array: 36
+21:27:40.662 [main] INFO  com.karach.arrayproject.main.Main - Sum of negative elements in array: 2
+21:44:01.982 [main] ERROR com.karach.arrayproject.main.Main - Array is empty or contains zero.
+21:45:25.460 [main] ERROR com.karach.arrayproject.main.Main - Array is empty or contains zero.
+21:48:21.530 [main] ERROR com.karach.arrayproject.main.Main - Array is empty or contains zero.
+22:03:16.430 [main] ERROR com.karach.arrayproject.main.Main - Array is empty or contains negative numbers.

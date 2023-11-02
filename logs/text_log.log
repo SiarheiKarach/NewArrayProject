@@ -1,7 +1,8 @@
-20:48:54.524 [main] INFO  com.karach.arrayproject.logging.Logger - Минимальное значение массива:0
-20:48:54.532 [main] INFO  com.karach.arrayproject.logging.Logger - Максимальное значение массива:9
-20:48:54.533 [main] INFO  com.karach.arrayproject.logging.Logger - Измененное число элементов массива:2
-20:48:54.534 [main] INFO  com.karach.arrayproject.logging.Logger - Среднее значение элементов массива: 3.8372093023255816
-20:48:54.534 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма элементов массива: 165
-20:48:54.535 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма положительных элементов массива: 36
-20:48:54.540 [main] INFO  com.karach.arrayproject.logging.Logger - Cумма отрицательных элементов массива: 2
+22:05:03.743 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
+22:05:03.758 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+22:05:03.759 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+22:05:03.759 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+22:05:03.760 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+22:05:03.761 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
+22:05:03.761 [main] INFO  com.karach.arrayproject.main.Main - Sum of positive elements in array: 36
+22:05:03.762 [main] INFO  com.karach.arrayproject.main.Main - Sum of negative elements in array: 2

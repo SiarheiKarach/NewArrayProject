@@ -1,0 +1,9 @@
+21:03:27.158 [main] ERROR com.karach.arrayproject.main.Main - Error: File not found: myArray.txt (Nie można odnaleźć określonego pliku)
+21:05:47.262 [main] ERROR karach.arrayproject.readfile.impl.ReadFileImpl - File doesn't exist: myArray.txt (Nie można odnaleźć określonego pliku)
+21:05:47.268 [main] ERROR com.karach.arrayproject.main.Main - Error: File not found: myArray.txt (Nie można odnaleźć określonego pliku)
+21:12:04.599 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
+21:12:04.602 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+21:12:04.602 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+21:12:04.603 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+21:12:04.604 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+21:12:04.604 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
