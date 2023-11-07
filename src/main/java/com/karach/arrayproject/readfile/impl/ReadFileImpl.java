@@ -13,25 +13,29 @@ import java.util.Scanner;
 
 public class ReadFileImpl implements ReadFile {
 
-  Logger logger = LogManager.getLogger(ReadFileImpl.class);
+  static Logger logger = LogManager.getLogger();
+  static final String fileName = "myArray.txt";
 
   @Override
-  public List<String> readFromFile() throws ArrayModelException {
-    String fileName = "myArray.txt";
+  public List<String> readFromFile(String fileName) throws ArrayModelException {
+
     List<String> lines = new ArrayList<>();
+    Scanner scanner = null;
     try {
       File file = new File(fileName);
-      Scanner scanner = new Scanner(file);
+      scanner = new Scanner(file);
 
       while (scanner.hasNextLine()) {
         String line = scanner.nextLine();
         lines.add(line);
-        logger.info(line);
       }
-      scanner.close();
+
     } catch (FileNotFoundException e) {
       logger.error("File doesn't exist: " + e.getMessage());
-      throw new ArrayModelException("File not found: " + e.getMessage());
+      throw new ArrayModelException("File not found: ", e);
+
+    } finally {
+      scanner.close();
     }
     return lines;
   }

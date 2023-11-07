@@ -3,12 +3,8 @@ package com.karach.arrayproject.validation;
 public class ArrayValidation {
 
   public static boolean isArrayNotEmpty(int[] array) {
-    if (array != null && array.length > 0) {
-      return true;
-    } else {
-      return false;
+      return (array != null && array.length > 0);
     }
-  }
 
   public static boolean isArrayNotContainsZero(int[] array) {
     for (int num : array) {
