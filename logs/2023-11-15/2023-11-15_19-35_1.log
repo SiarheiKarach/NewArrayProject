@@ -1,0 +1,7 @@
+16:18:29.642 [main] INFO  com.karach.arrayproject.main.Main - Checking MinArrayValueSpecification: Min Specified? false
+16:18:29.654 [main] INFO  arrayproject.repository.specification.impl.MaxArrayValueSpecification - Checking MaxArrayValueSpecification for ArrayModel with ID: 1 - Max Array Value: 9 - Specified Max: 8 - Result: true
+16:18:29.654 [main] INFO  com.karach.arrayproject.main.Main - Checking MaxSpecification: Max Specified? true
+19:35:53.143 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+19:35:53.164 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+19:35:53.164 [main] INFO  com.karach.arrayproject.main.Main - Checking MinArrayValueSpecification: Min Specified? false
+19:35:53.165 [main] INFO  arrayproject.repository.specification.impl.MaxArrayValueSpecification - Checking MaxArrayValueSpecification for ArrayModel with ID: 1 - Max Array Value: 9 - Specified Max: 8 - Result: true

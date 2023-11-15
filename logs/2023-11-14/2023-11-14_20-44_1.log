@@ -1,0 +1,10 @@
+20:43:13.604 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+20:43:13.623 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+20:43:13.624 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
+20:43:13.625 [main] INFO  com.karach.arrayproject.main.Main - Sum of positive elements in array: 36
+20:43:13.625 [main] INFO  com.karach.arrayproject.main.Main - Sum of negative elements in array: 2
+20:44:42.652 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+20:44:42.663 [main] INFO  com.karach.arrayproject.main.Main - true
+20:44:42.664 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
+20:44:42.669 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+20:44:42.669 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9

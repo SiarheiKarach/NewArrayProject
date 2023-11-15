@@ -1,0 +1,7 @@
+16:07:04.784 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+16:07:04.808 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+16:07:04.809 [main] INFO  com.karach.arrayproject.main.Main - Checking MinSpecification: Min Specified? false
+16:16:43.060 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+16:16:43.083 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+16:16:43.088 [main] INFO  com.karach.arrayproject.main.Main - Checking MinArrayValueSpecification: Min Specified? false
+16:16:43.097 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false

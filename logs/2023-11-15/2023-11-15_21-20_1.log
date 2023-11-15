@@ -1,0 +1,6 @@
+19:52:58.962 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+19:52:58.973 [main] INFO  arrayproject.repository.specification.impl.MaxArrayValueSpecification - Checking MaxArrayValueSpecification for ArrayModel with ID: 1 - Max Array Value: 9 - Specified Max: 8 - Result: true
+19:52:58.973 [main] INFO  arrayproject.repository.specification.impl.SumArrayValueSpecification - Checking SumArrayValueSpecification for ArrayModel with ID: 1 - Target Sum: 165 - Actual Sum: 165 - Result: true
+19:52:58.991 [main] INFO  arrayproject.repository.specification.impl.AverageArrayValueSpecification - Checking AverageArrayValueSpecification for ArrayModel with ID: 1 - Target Average: 3.0 - Actual Average: 3.8372093023255816 - Result: false
+21:20:51.999 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+21:20:52.034 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false

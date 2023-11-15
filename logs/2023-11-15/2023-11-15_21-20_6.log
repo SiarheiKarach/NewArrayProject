@@ -1,0 +1,8 @@
+21:20:52.087 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [-1526402156, 507835995, 1967940893, 1566471817, -1361865244, -2002778349, 1507752567, 1897136092, 1502926174, 1235191984]
+21:20:52.089 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [308126989, 668465415, -573258177, 24933615, 978618634, -1613732388, 90148232, -737520254, -1656068159, -1409098157]
+21:20:52.090 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
+21:20:52.090 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+21:20:52.090 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+21:20:52.091 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+21:20:52.092 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+21:20:52.092 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165

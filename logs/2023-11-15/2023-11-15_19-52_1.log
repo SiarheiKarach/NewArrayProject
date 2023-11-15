@@ -1,0 +1,6 @@
+19:40:28.425 [main] INFO  arrayproject.repository.specification.impl.SumArrayValueSpecification - Checking SumArrayValueSpecification for ArrayModel with ID: 1 - Target Sum: 360 - Actual Sum: 165 - Result: false
+19:40:44.194 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+19:40:44.214 [main] INFO  arrayproject.repository.specification.impl.MinArrayValueSpecification - Checking MinArrayValueSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+19:40:44.215 [main] INFO  arrayproject.repository.specification.impl.MaxArrayValueSpecification - Checking MaxArrayValueSpecification for ArrayModel with ID: 1 - Max Array Value: 9 - Specified Max: 8 - Result: true
+19:40:44.220 [main] INFO  arrayproject.repository.specification.impl.SumArrayValueSpecification - Checking SumArrayValueSpecification for ArrayModel with ID: 1 - Target Sum: 165 - Actual Sum: 165 - Result: true
+19:52:58.935 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.

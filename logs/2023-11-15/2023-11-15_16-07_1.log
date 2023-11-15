@@ -1,0 +1,10 @@
+16:04:43.664 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+16:04:43.671 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+16:04:43.671 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+16:04:43.672 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+16:04:43.673 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
+16:04:43.673 [main] INFO  com.karach.arrayproject.main.Main - Sum of positive elements in array: 36
+16:04:43.673 [main] INFO  com.karach.arrayproject.main.Main - Sum of negative elements in array: 2
+16:05:52.628 [main] INFO  com.karach.arrayproject.repository.ArrayRepository - ArrayRepository instance created.
+16:05:52.932 [main] INFO  arrayproject.repository.specification.impl.MinSpecification - Checking MinSpecification for ArrayModel with ID: 1 - Min Array Value: -4 - Specified Min: -500 - Result: false
+16:05:52.932 [main] INFO  com.karach.arrayproject.main.Main - Checking MinSpecification: Min Specified? false

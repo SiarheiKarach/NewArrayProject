@@ -1,0 +1,10 @@
+19:47:49.369 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+19:47:49.376 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816
+19:47:49.376 [main] INFO  com.karach.arrayproject.main.Main - Sum of all elements in array: 165
+19:47:49.377 [main] INFO  com.karach.arrayproject.main.Main - Sum of positive elements in array: 36
+19:47:49.377 [main] INFO  com.karach.arrayproject.main.Main - Sum of negative elements in array: 2
+19:50:53.259 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
+19:50:53.272 [main] INFO  com.karach.arrayproject.main.Main - Minimal array value: 0
+19:50:53.300 [main] INFO  com.karach.arrayproject.main.Main - Maximal array value: 9
+19:50:53.300 [main] INFO  com.karach.arrayproject.main.Main - Number of changed elements in array: 2
+19:50:53.302 [main] INFO  com.karach.arrayproject.main.Main - Average value of array: 3.8372093023255816

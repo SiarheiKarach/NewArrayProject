@@ -1,0 +1,5 @@
+21:21:09.209 [main] INFO  com.karach.arrayproject.creator.RandomArrayFactory - Created RandomArray with ID 1: [1005949121, -580324277, 1687637486, 323985001, -1252192000, -237673479, 197066810, 81852462, -356096614, 271717384]
+21:21:09.218 [main] INFO  com.karach.arrayproject.creator.RandomArrayFactory - Created RandomArray with ID 2: [1341203998, 45239331, 68095754, 914525311, 2102159198, 462690191, 290269767, 190697931, 1562977402, -440975234]
+21:21:09.219 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [1005949121, -580324277, 1687637486, 323985001, -1252192000, -237673479, 197066810, 81852462, -356096614, 271717384]
+21:21:09.219 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [1341203998, 45239331, 68095754, 914525311, 2102159198, 462690191, 290269767, 190697931, 1562977402, -440975234]
+21:21:09.220 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
