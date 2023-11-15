@@ -1,4 +1,4 @@
-import com.karach.arrayproject.exception.ArrayModelException;
+import com.karach.arrayproject.exception.ArrayException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.Assert;
@@ -21,7 +21,7 @@ public class ArrayModelServiceImplTest {
   }
 
   @Test(dataProvider = "arrayProvider")
-  public void testArrayOperations(int[] array, int expected) throws ArrayModelException {
+  public void testArrayOperations(int[] array, int expected) throws ArrayException {
     ArrayModelServiceImpl arrayModelService = new ArrayModelServiceImpl();
 
     if (expected == 1) {

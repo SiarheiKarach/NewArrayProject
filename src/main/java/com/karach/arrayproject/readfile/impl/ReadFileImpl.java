@@ -1,6 +1,6 @@
 package com.karach.arrayproject.readfile.impl;
 
-import com.karach.arrayproject.exception.ArrayModelException;
+import com.karach.arrayproject.exception.ArrayException;
 import com.karach.arrayproject.readfile.ReadFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +17,7 @@ public class ReadFileImpl implements ReadFile {
   static final String fileName = "myArray.txt";
 
   @Override
-  public List<String> readFromFile(String fileName) throws ArrayModelException {
+  public List<String> readFromFile(String fileName) throws ArrayException {
 
     List<String> lines = new ArrayList<>();
     Scanner scanner = null;
@@ -32,7 +32,7 @@ public class ReadFileImpl implements ReadFile {
 
     } catch (FileNotFoundException e) {
       logger.error("File doesn't exist: " + e.getMessage());
-      throw new ArrayModelException("File not found: ", e);
+      throw new ArrayException("File not found: ", e);
 
     } finally {
       scanner.close();

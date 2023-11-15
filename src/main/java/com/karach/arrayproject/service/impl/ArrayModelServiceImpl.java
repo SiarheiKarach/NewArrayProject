@@ -1,16 +1,14 @@
 package com.karach.arrayproject.service.impl;
 
-import com.karach.arrayproject.exception.ArrayModelException;
+import com.karach.arrayproject.exception.ArrayException;
 import com.karach.arrayproject.service.ArrayModelService;
-
-import java.util.List;
 
 public class ArrayModelServiceImpl implements ArrayModelService {
 
   @Override
-  public int findMin(int[] arrayModel) throws ArrayModelException {
+  public int findMin(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
 
     int min = arrayModel[0];
@@ -23,9 +21,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public int findMax(int[] arrayModel) throws ArrayModelException {
+  public int findMax(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
 
     int max = arrayModel[0];
@@ -38,9 +36,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public int replaceElementsNumber(int[] arrayModel, int oldValue, int newValue) throws ArrayModelException {
+  public int replaceElementsNumber(int[] arrayModel, int oldValue, int newValue) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
     int count = 0;
     for (int i = 0; i < arrayModel.length; i++) {
@@ -53,9 +51,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public double findAverage(int[] arrayModel) throws ArrayModelException {
+  public double findAverage(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
     int sum = 0;
     for (int value : arrayModel) {
@@ -66,9 +64,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public int findSum(int[] arrayModel) throws ArrayModelException {
+  public int findSum(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
     int sum = 0;
     for (int value : arrayModel) {
@@ -78,9 +76,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public int countPositiveElements(int[] arrayModel) throws ArrayModelException {
+  public int countPositiveElements(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
     int count = 0;
     for (int value : arrayModel) {
@@ -92,9 +90,9 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   }
 
   @Override
-  public int countNegativeElements(int[] arrayModel) throws ArrayModelException {
+  public int countNegativeElements(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayModelException("Массив отсутствует или пустой");
+      throw new ArrayException("Массив отсутствует или пустой");
     }
     int count = 0;
     for (int value : arrayModel) {
