@@ -1,34 +1,22 @@
 package com.karach.arrayproject.validation;
 
-public class ArrayValidation {
+public interface ArrayValidation {
 
-  public static boolean isArrayNotEmpty(int[] array) {
-      return (array != null && array.length > 0);
-    }
+  boolean isArrayNotEmpty(int[] array);
 
-  public static boolean isArrayNotContainsZero(int[] array) {
-    for (int num : array) {
-      if (num == 0) {
-        return false;
-      }
-    }
-    return true;
-  }
+  boolean isArrayNotContainsZero(int[] array);
 
-  public static boolean isPositiveNumber(int num) {
-    return num > 0;
-  }
+  boolean isPositiveNumber(int num);
 
-  public static boolean isNegativeNumber(int[] array) {
-    for (int num : array) {
-      if (num < 0) {
-        return true;
-      }
-    }
-    return false;
-  }
+  boolean isNegativeNumber(int[] array);
 
-  public static boolean isWithinRange(int num, int min, int max) {
-    return num >= min && num <= max;
-  }
+  boolean isWithinRange(int num, int min, int max);
+
+  boolean isMinSpecified(int num, int min);
+
+  boolean isMaxSpecified(int num, int max);
+
+  boolean isSumSpecified(int num, int sum);
+
+  boolean isAverageSpecified(double average, double targetAverage);
 }

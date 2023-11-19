@@ -8,7 +8,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int findMin(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
 
     int min = arrayModel[0];
@@ -23,7 +23,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int findMax(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
 
     int max = arrayModel[0];
@@ -38,7 +38,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int replaceElementsNumber(int[] arrayModel, int oldValue, int newValue) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
     int count = 0;
     for (int i = 0; i < arrayModel.length; i++) {
@@ -53,7 +53,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public double findAverage(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
     int sum = 0;
     for (int value : arrayModel) {
@@ -66,7 +66,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int findSum(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
     int sum = 0;
     for (int value : arrayModel) {
@@ -78,7 +78,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int countPositiveElements(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
     int count = 0;
     for (int value : arrayModel) {
@@ -92,7 +92,7 @@ public class ArrayModelServiceImpl implements ArrayModelService {
   @Override
   public int countNegativeElements(int[] arrayModel) throws ArrayException {
     if (arrayModel == null || arrayModel.length == 0) {
-      throw new ArrayException("Массив отсутствует или пустой");
+      throw new ArrayException("Array is empty or null");
     }
     int count = 0;
     for (int value : arrayModel) {

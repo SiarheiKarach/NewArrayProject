@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 public class ReadFileImpl implements ReadFile {
 
-  static Logger logger = LogManager.getLogger();
-  static final String fileName = "myArray.txt";
+  private static final Logger logger = LogManager.getLogger();
+  static final String DEFAULT_FILENAME = "myArray.txt";
 
   @Override
   public List<String> readFromFile(String fileName) throws ArrayException {

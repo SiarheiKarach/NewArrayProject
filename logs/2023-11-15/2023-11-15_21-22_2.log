@@ -1,7 +1,7 @@
 21:22:06.515 [main] INFO  arrayproject.repository.specification.impl.SumArrayValueSpecification - Checking SumArrayValueSpecification for ArrayModel with ID: 1 - Target Sum: 165 - Actual Sum: 165 - Result: true
 21:22:06.525 [main] INFO  arrayproject.repository.specification.impl.AverageArrayValueSpecification - Checking AverageArrayValueSpecification for ArrayModel with ID: 1 - Target Average: 3.0 - Actual Average: 3.8372093023255816 - Result: false
-21:22:06.526 [main] INFO  com.karach.arrayproject.creator.RandomArrayFactory - Created RandomArray with ID 1: [1597065088]
-21:22:06.526 [main] INFO  com.karach.arrayproject.creator.RandomArrayFactory - Created RandomArray with ID 2: [-443506167]
+21:22:06.526 [main] INFO  com.karach.arrayproject.creator.RandomArrayModelFactory - Created RandomArray with ID 1: [1597065088]
+21:22:06.526 [main] INFO  com.karach.arrayproject.creator.RandomArrayModelFactory - Created RandomArray with ID 2: [-443506167]
 21:22:06.527 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [1597065088]
 21:22:06.527 [main] INFO  com.karach.arrayproject.main.Main - Random Array: [-443506167]
 21:22:06.528 [main] INFO  com.karach.arrayproject.main.Main - Sorted array: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, -4, -4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 8, 9, 9, 9, 9, 9, 9]
